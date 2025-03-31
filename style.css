@@ -20,7 +20,8 @@ align-items: center;
 background-image: linear-gradient(to left, #20638C, #01060D);
 padding: 10px;
 border-radius: 10px;
-margin-top: 10px;}
+margin-top: 10px;
+}
 
 ul
 {display: flex;
@@ -28,6 +29,9 @@ margin: 10px;}
 
 li{padding: 10px;
 list-style-type: none;
+padding: 0px;
+margin-left: -30px;
+margin-right: 40px;
 }
 
 a
@@ -50,7 +54,7 @@ color:#011526;}
 {flex-direction: column;
 line-height: 10px;
 color: white;
-margin-left: 30px;
+margin-left: 10px;
 font-family: "Poppins", sans-serif;
 font-weight: 600;
 font-style: normal;
@@ -65,11 +69,14 @@ text-decoration: underline 3px #01060D ;
 ;
 }
 
+main
+{margin-right: 40px;}
+
 
 main h1
 {color: white;
     line-height: 40px;
-    padding-left: 70px;
+    padding-left: 50px;
     margin-top: 50px;
     font-family: "Poppins", sans-serif;
   font-weight: 900;
