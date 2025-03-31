@@ -12,6 +12,7 @@ body
 {font-family: "Poppins";
 background-image: linear-gradient(to left, #20638C ,#01060D );}
 
+
 nav
 {display: flex;
 flex-direction: row;
@@ -33,6 +34,8 @@ padding: 0px;
 margin-left: -30px;
 margin-right: 40px;
 }
+
+
 
 a
 {text-decoration: none;
@@ -70,7 +73,11 @@ text-decoration: underline 3px #01060D ;
 }
 
 main
-{margin-right: 40px;}
+{margin-right: 40px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
 
 
 main h1
@@ -93,14 +100,17 @@ font-family: "Poppins", sans-serif;
 font-weight: 200;
 font-style: normal;
 text-indent: 10px;
-flex-direction: column;
-}
-
-div img{ 
-
-display: block;
-margin: auto;
 
 }
 
+picture img{ 
+margin-left: 80px;
+}
+
+.imagem
+{
+margin: 0px 30px;
+border-radius: 30px;
+width: 370px; height: 370px;
+}
 
