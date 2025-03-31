@@ -96,21 +96,10 @@ text-indent: 10px;
 flex-direction: column;
 }
 
-div img{ margin-left: 86px;
-    margin-top: 10px;
+div img{ 
+margin: 10px 30px;
+
+
 }
 
-div img:hover
-{background-color: #011526;
-border-radius: 10px;}
 
-
-picture> img
-{width: 400px;
-  margin: 0 20px;
-  flex-direction: row;
-  display: flex;
-  margin-left: 848px;
- margin-top: -367px;
-border-radius: 50%;
-}
