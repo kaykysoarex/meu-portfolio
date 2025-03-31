@@ -97,8 +97,9 @@ flex-direction: column;
 }
 
 div img{ 
-margin: 10px 30px;
 
+display: block;
+margin: auto;
 
 }
 
