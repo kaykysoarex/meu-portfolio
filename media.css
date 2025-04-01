@@ -1,0 +1,59 @@
+@media screen and (max-width: 908px) 
+{nav{
+    flex-direction: column;
+
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.imagem{
+    display: none;
+}
+
+span{
+    margin-left: 5px;
+}
+
+li{
+padding: 5px;
+}
+
+.Dev{
+   margin-left: 150px;
+
+}
+
+}
+
+@media screen and (max-width: 907px)
+{
+
+section{
+  display: block;
+   margin: auto;
+}
+
+section> p{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+
+nav ul li{
+margin-top: 0;
+}
+
+nav .titulo
+{padding-bottom: 0;
+margin-bottom: -20px;
+margin-top: 20px;}
+
+
+}
