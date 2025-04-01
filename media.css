@@ -53,13 +53,13 @@ font-size: 60px;
 margin-left: 20px;
 text-shadow: 3px 3px 2px #012840;
 line-height: 42px;
-
 }
 
 section .Dev
 {text-transform: uppercase;
 text-shadow: 3px 3px 2px #012840;
 margin-top: -30px;
+
 
 
 }
@@ -71,7 +71,7 @@ nav .titulo{padding-bottom: 0;
 }
 
 picture{
-margin: -42px;
+margin: -62px;
 }
 
 }
