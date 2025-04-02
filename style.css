@@ -36,7 +36,14 @@ margin-left: -30px;
 margin-right: 40px;
 }
 
+section h1{
+background-image: linear-gradient(to right, #012840, transparent);
+border-radius: 5px;
+padding: 20px;
+max-width: 300px;
+margin: auto;
 
+}
 
 a
 {text-decoration: none;
@@ -65,7 +72,8 @@ font-style: normal;
 text-transform: uppercase;}
 
 span
-{color: #20638C;}
+{color: #20638C;
+text-shadow: 3px 2px 4px black;}
 
 .Inicio{
 text-decoration: underline 3px #01060D ;
