@@ -8,6 +8,21 @@
     display: flex;
     flex-direction: row;
     padding: 10px;
+    margin: -15px;
+    ;
+}
+
+nav li
+{margin-bottom: 10px;
+margin-top: -9px;
+margin-right: 20px;
+padding: 5px;}
+
+
+li:hover{
+    background-color: #105773;
+    border-radius: 20px;
+    padding: -10px;
 }
 
 .imagem{
@@ -18,62 +33,18 @@ span{
     margin-left: 5px;
 }
 
-li{
-padding: 5px;
-}
-
-.Dev{
-   margin-left: 150px;
-
-}
-
-}
-
-@media screen and (max-width: 908px)
-{
-
-section{
-  display: block;
-   margin: auto;
-}
-
-section> p{
-    display: block;
-    margin: auto;
-    margin-bottom: 15px;
-    margin-left: 25px;
-    margin-top: -20px;
-    text-align: center;
-}
-
-section h1
-{margin-top: 20px;
-padding-left: -20px;
-font-size: 60px;
-margin-left: 20px;
-text-shadow: 3px 3px 2px #012840;
-line-height: 42px;
-}
-
-section .Dev
-{text-transform: uppercase;
-text-shadow: 3px 3px 2px #012840;
-margin-top: -30px;
+section h1 
+{margin: auto;
+text-align: center;}
 
 
+picture img{
+  
+margin: auto;
+margin-left: 60px;
 
 }
 
 
-nav .titulo{padding-bottom: 0;
-    margin-bottom: -20px;
-    margin-top: -10px;
-}
-
-picture{
-margin: -62px;
-}
-
-}
 
 
