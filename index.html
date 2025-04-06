@@ -3,62 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Kayky Bahia - Desenvolvedor Web</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="media.css">
+
 </head>
 <body>
-    <nav>
-<div class="titulo">
-   <h1>Kayky</h1>
-   <span>
-       <h1>Soares</h1>
-   </span>
-</div>
+  
 
-     <ul>
-<a href="#">
-    <li>Inicio</li>
-</a>
-
-<a href="#">
-    <li>Educação</li>
-</a>
-        <a href="#"><li>Contato</li></a>
-
-     
-
-     </ul>   
-    </nav>
-
-
-    <main>
-<section>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
     
-                <h1>
-                    Olá, eu sou um <span> Dev</span>
-                </h1>
-                <p>Olá, meu nome é Kayky!
-                    Sou iniciante na área de programação e estou sempre em busca de novos conhecimentos para aprimorar minhas habilidades. Este é o meu portfólio, onde compartilho alguns dos meus projetos e ideias. Fique à vontade para explorar e conhecer um pouco mais sobre o meu trabalho!</p>
+    <header>
+        <div class="menu-toggle">☰</div>
+        <div class="logo">Kayky <span class="highlight">Bahia</span></div>
+        <nav id="inicio">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#mapa-roadmap">Mapa</a></li>
+                <li><a href="#soft-skills">Soft Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div class="content">
+            <h1 id="dynamic-text">Eu sou Kayky Bahia, um Desenvolvedor Web</h1> 
+            <p>Olá,
+                Sou iniciante na área de programação e estou sempre em busca de novos conhecimentos para aprimorar minhas habilidades. Este é o meu portfólio, onde compartilho alguns dos meus projetos e ideias. Fique à vontade para explorar e conhecer um pouco mais sobre o meu trabalho!</p>
+
+                <a href="#about" class="cta-button">↓</a>
+
+        </div>
+        <div class="image">
+            <img src="imagens/Imagem do WhatsApp de 2025-04-05 à(s) 19.49.02_2b11d4a7.png" alt="Kayky Bahia">
+        </div>
+    </section>
+
+
+    <section id="mapa-roadmap" class="roadmap">
+        <h2>Mapa de Melhorias & Qualidades</h2>
+        <div class="roadmap-container">
+            <div class="roadmap-item left" data-info="Aprimorando habilidades em JavaScript avançado.">
+                <h3>JavaScript</h3>
+                <div class="circle"></div>
+            </div>
     
+            <div class="roadmap-item right" data-info="Melhorando projetos com React e Next.js.">
+                <h3>React & Next.js</h3>
+                <div class="circle"></div>
+            </div>
     
-    <picture>
+            <div class="roadmap-item left" data-info="Explorando desenvolvimento back-end com Node.js.">
+                <h3>Node.js & APIs</h3>
+                <div class="circle"></div>
+            </div>
     
-                    <a href="https://github.com/kaykysoarex" target="_blank"><img src="imagens/github.png.png" alt="github"></a>
+            <div class="roadmap-item right" data-info="Criando interfaces modernas com UI/UX Design.">
+                <h3>UI/UX Design</h3>
+                <div class="circle"></div>
+            </div>
     
-                    <a href="https://www.linkedin.com/in/kayky-soares-983022357/" target="_blank"><img src="imagens/linkedin.png.png" alt="linkedin"></a>
+            <div class="roadmap-item left" data-info="Praticando lógica de programação para otimizar código.">
+                <h3> Estruturas de Dados</h3>
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div id="info-box" class="hidden"></div>
+
     
-                    <a href="https://www.instagram.com/kaykysoarex/" target="_blank"><img src="imagens/instagram.png.png" alt="instagram"></a>
-                    </picture>
-</section>
+    </section>
     
 
 
-    <div><img  class="imagem" src="imagens/eu003-Photoroom-gimp.png" alt=""></div>
-
-    </main>
 
 
+    <section id="soft-skills" class="soft-skills">
+        <h1>Minhas Soft Skills</h1>
+        <div class="skills-container">
+          <div class="skill">
+            <img src="https://img.icons8.com/ios/100/communication.png" alt="Comunicação">
+            <h3>Comunicação</h3>
+            <p>Consigo expressar ideias com clareza e escutar com atenção.</p>
+          </div>
+          <div class="skill">
+            <img src="https://img.icons8.com/ios/100/teamwork.png" alt="Trabalho em equipe">
+            <h3>Trabalho em Equipe</h3>
+            <p>Colaboro de forma eficaz com diferentes perfis e times multidisciplinares.</p>
+          </div>
+          <div class="skill">
+            <img src="https://img.icons8.com/ios/100/idea.png" alt="Criatividade">
+            <h3>Criatividade</h3>
+            <p>Gosto de propor soluções inovadoras e pensar fora da caixa.</p>
+          </div>
+          <div class="skill">
+            <img src="imagens/adaptacao (2).png" alt="Adaptabilidade">
+            <h3>Adaptabilidade</h3>
+            <p>Aprendo rápido e me ajusto facilmente a novas tecnologias ou ambientes.</p>
+          </div>
+        </div>
+      </section>
+    
 
+  
+
+      <section class="portfolio" id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="portfolio-container">
+          <div class="portfolio-item">
+            <img src="imagens/ChatGPT Image 6 de abr. de 2025, 00_47_07.png" alt="Projeto 1">
+            <h3>Projeto 1</h3>
+
+            <p>Portfólio pessoal com foco em design moderno, responsivo e navegação fluida. <br>
+
+            Tecnologias:
+              HTML, CSS, JavaScript.</p>
+            <a href="#" target="_blank">Ver Projeto</a>
+
+          </div>
+          <div class="portfolio-item">
+            <img src="img/projeto2.jpg" alt="Projeto 2">
+            <h3>Projeto 2</h3>
+            <p>Descrição breve do projeto, tecnologia usada ou objetivo.</p>
+            <a href="#" target="_blank">Ver Projeto</a>
+          </div>
+          <div class="portfolio-item">
+            <img src="img/projeto3.jpg" alt="Projeto 3">
+            <h3>Projeto 3</h3>
+            <p>Descrição breve do projeto, tecnologia usada ou objetivo.</p>
+            <a href="#" target="_blank">Ver Projeto</a>
+          </div>
+        </div>
+      </section>
+      
+      <footer id="footer">
+        <div class="social-icons">
+          <a href="https://github.com/kaykysoarex" target="_blank">
+            <img src="imagens/placa-do-github.png" alt="GitHub">
+          </a>
+          <a href="https://www.linkedin.com/in/kayky-soares-983022357/" target="_blank">
+            <img src="imagens/linkedin (1).png" alt="LinkedIn">
+          </a>
+          <a href="https://www.instagram.com/kaykysoarex/?hl=en" target="_blank">
+            <img src="imagens/instagram (2).png" alt="Instagram">
+          </a>
+        </div>
+      
+        <p>© 2025 Kayky Soares Bahia. Todos os direitos reservados.</p>
+        <p>
+          Ícones por 
+          <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="noopener">Freepik</a> em 
+          <a href="https://www.flaticon.com/" target="_blank" rel="noopener">Flaticon</a>.
+        </p>
+      </footer>
+      
+    <script src="script.js"></script>
 </body>
 </html>
+

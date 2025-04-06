@@ -1,123 +1,155 @@
-@media screen and (max-width: 908px) 
-{nav{
-    flex-direction: column;
-margin-bottom: -30px;
+/* 🖥️ Estilos padrão para PC (já existem no código) */
 
+/* 📱 Responsividade para celulares (telas menores que 768px) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Menu empilhado */
+        text-align: center;
+    }
 
+    nav ul {
+        display: none; /* Esconde o menu padrão */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #131313;
+        width: 200px;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    }
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 30px;
+        color: #007bff;}
+
+        .menu-open nav ul {
+            display: flex; /* Exibe o menu quando clicado */
+        }
+
+    nav ul li {
+        margin: 10px 0; /* Mais espaçamento entre os itens do menu */
+    }
+
+    .hero {
+        flex-direction: column; /* Imagem abaixo do texto */
+        text-align: center;
+        padding: 30px;
+    }
+
+    .image img {
+        width: 100%; /* Ajusta a largura da imagem */
+        max-width: 300px; /* Limita o tamanho máximo */
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-text, .work-text {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .roadmap {
+        flex-direction: column; /* Itens do roadmap empilhados */
+    }
+
+    .roadmap-item {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        font-size: 18px; /* Botão menor */
+        padding: 12px 15px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+/* 📱 Responsividade para tablets (telas entre 768px e 1024px) */
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column; /* Deixa a imagem abaixo do texto */
+        text-align: center;
+    }
+
+    .image img {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .roadmap {
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+    
+    }
+
+    .roadmap-item {
+        width: 80%;
+    }
+
+    
 }
 
 
-.titulo{
-display: flex;
-flex-direction: row;
-background-image: linear-gradient(to right, #20638C, transparent);
-padding: 5px;
-border-radius: 10px;
-margin-bottom: 16px;
+/*soft skill responsivo*/
+
+
+/* Soft Skills - Responsivo */
+@media (max-width: 768px) {
+    .skills-container {
+      grid-template-columns: 1fr;
+      gap: 20px;
+     
+     
+    }
+  
+    .skills-container .skill {
+      align-items: center;
+      text-align: center;
+      margin: auto;
+    }
+  
+    .skills-container .skill img {
+     
+    }
+  }
+
+  @media (max-width: 768px) {
+    .roadmap {
+      padding: 30px 15px;
+      margin: 30px 20px;
+      width:90%;
+    }
+
+    .image{
+       display: none;
+    }
+  }
+
+  .menu-toggle{
+margin-top: -9px;
+  
 }
 
-section h1{
- background-image: linear-gradient(to right, #20638C, transparent);
-border-radius: 10px;
-padding: 3px;
-
-}
-
-li:hover{
-    background-color: #105773;
-    border-radius: 10px;
-
-}
-
-
-li{
-    padding: 5px;
-    margin-top: -15px;
-    margin-left: 2px;
-}
-.imagem{
+.cta-button{
     display: none;
 }
-
-span{
-    margin-left: 5px;
-}
-
-main{
-    max-width: 400px;
-    margin: auto;
-}
-
-
-}
-
-
-
-@media screen and (max-width: 539px) {
-
-    nav{
-        flex-direction: column;
-    display: flex}
-    
-    .titulo{
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        margin: 15px;
-        ;
-    }
-    
-    nav li
-    {
-      
-        
-        }
-    
-    
-    li:hover{
-        background-color: #105773;
-        border-radius: 20px;
-        padding: -10px;
-    }
-    
-main{
-    max-width: 400px;
-    margin: auto;
-}
-
-    .imagem{
-        display: none;
-    }
-    
-    span{
-        margin-left: 5px;
-    }
-
-picture{
-    justify-content: space-between;
-    display: flex;
-
-}
-
-a{
-
-}
-
-picture a img{
-margin: 0;
-align-items: center;
-max-width: 30px;
-}
-
-img:hover{
-    background-color: black;
-    border-radius: 10px;
-}
-
-    main p{
-        margin-right: 40px;
-    }
-    
-
-}
-
