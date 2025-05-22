@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.getElementById("dynamic-text");
-    const texts = ["um Desenvolvedor Web", "um Especialista em JavaScript", "um Programador Python"];
+    const texts = ["Dev criativo", "Design Interativo", "Dev Front-End"];
     let index = 0;
     let charIndex = 0;
     let deleting = false;
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             charIndex++;
         }
 
-        textElement.innerHTML = `Eu sou Kayky Bahia, <span class="dynamic">${currentText.substring(0, charIndex)}</span>`;
+        textElement.innerHTML = `Eu sou Kayky Bahia <br> <span class="dynamic">${currentText.substring(0, charIndex)}</span>`;
 
         if (!deleting && charIndex === currentText.length) {
             setTimeout(() => deleting = true, 2000);
